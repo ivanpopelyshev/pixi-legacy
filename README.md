@@ -1,6 +1,8 @@
 # pixi-legacy
 
-Sometimes things break. Sometimes new API is introduced 
+Sometimes things break. Sometimes new API is introduced. Sometimes old API gets deprecated.
+
+Sometimes everyone is drunk on friday night, and only @ivanpopelyshev saves the situation by adding new plugin
 
 This plugin allows to use new API's with old versions of PIXI, starting from v3.0.11
 
