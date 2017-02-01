@@ -10,6 +10,16 @@ It is also supposed to add old API's and remove things that were "deprecated" an
 
 Binaries are in "bin" folder.
 
+### Features backported to v3
+
+1. VoidFilter
+2. filter.blendMode
+
+### Features backported to v4.2
+
+1. Application
+2. renderer.screen
+
 ### Build
 
 ```bash
