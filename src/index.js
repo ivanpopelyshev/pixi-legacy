@@ -13,7 +13,7 @@ if (!PIXI.Application) {
     PIXI.Application = Application;
 }
 
-if (PIXI.AbstractFilter) {
+if (!PIXI.filters.VoidFilter) {
     FilterPatcherV3(PIXI);
 }
 

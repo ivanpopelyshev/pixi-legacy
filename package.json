@@ -1,6 +1,6 @@
 {
   "name": "pixi-legacy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Compatibility layer for new and old versions of pixi",
   "author": "Ivan Popelyshev",
   "contributors": [
