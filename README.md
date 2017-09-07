@@ -18,6 +18,10 @@ Binaries are in "bin" folder.
 1. Application
 2. renderer.screen
 
+### Renamings
+
+1. PIXI.particles.ParticleContainer <=> ParticleContainer
+
 ### Build
 
 ```bash

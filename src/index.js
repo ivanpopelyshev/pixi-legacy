@@ -17,4 +17,12 @@ if (!PIXI.filters.VoidFilter) {
     FilterPatcherV3(PIXI);
 }
 
+if (!PIXI.particles) {
+    PIXI.particles = {
+        ParticleContainer: PIXI.ParticleContainer
+    };
+} else {
+    PIXI.ParticleContainer = PIXI.particles.ParticleContainer;
+}
+
 module.exports = PIXI;
