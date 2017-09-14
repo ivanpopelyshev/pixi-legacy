@@ -1,6 +1,7 @@
 import Application from "./Application";
 import RendererPatcher from "./RendererPatcher";
 import FilterPatcherV3 from "./FilterPatcherV3";
+import InteractionPatcherV3 from "./InteractionPatcher";
 
 RendererPatcher(PIXI.CanvasRenderer.prototype);
 RendererPatcher(PIXI.WebGLRenderer.prototype);
@@ -25,4 +26,11 @@ if (!PIXI.particles) {
     PIXI.ParticleContainer = PIXI.particles.ParticleContainer;
 }
 
-module.exports = PIXI;
+let module = {
+	patchV3InteractionMask: function(arg) {
+		InteractionPatcherV3(arg || PIXI);
+    }
+};
+
+PIXI.legacy = module;
+module.exports = legacy;
